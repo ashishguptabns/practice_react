@@ -7,6 +7,14 @@
   min-height: 100vh;
 }
 
+.modalBtn {
+  background-color: black;
+  width: 100px;
+  cursor: pointer;
+  height: 40px;
+  color: white;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
@@ -73,7 +81,7 @@
 }
 
 .center {
-  display: flex;
+  display: flow;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -97,7 +105,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
