@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <div className={styles.center}>
-        <button className={styles.modalBtn} onClick={() => setIsModalOpen(true)}>Shared Modal</button>
+        {!isModalOpen && <button className={styles.modalBtn} onClick={() => setIsModalOpen(true)}>Shared Modal</button>}
         {isModalOpen && <Modal setIsModalOpen={setIsModalOpen} />}
       </div>
     </div>
