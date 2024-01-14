@@ -240,6 +240,7 @@
 .windowConfirm {
   margin-top: 30px;
   background: white;
+  margin-left: -90%;
   border-radius: 16px;
   padding: 16px;
   width: 300px;
