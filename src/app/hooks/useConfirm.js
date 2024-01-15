@@ -2,7 +2,7 @@ import { Modal } from "../components/modal"
 
 const { useRef, useState } = require("react")
 
-const useConfirm = () => {
+export default function useConfirm() {
     const awaitingPromiseRef = useRef(null)
     const [showDialog, setShowDialog] = useState(false)
     const [content, setContent] = useState("Sure to delete?")
@@ -34,4 +34,3 @@ const useConfirm = () => {
     return { triggerConfirm, ConfirmDialog }
 }
 
-export default useConfirm
