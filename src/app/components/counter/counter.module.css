@@ -1,0 +1,23 @@
+.Counter {
+  background-color: white;
+  width: 300px;
+  height: 100px;
+  position: fixed;
+  border-radius: 16px;
+  margin-top: 15%;
+  margin-left: -7%;
+}
+
+.count {
+  margin: 10px;
+  margin-left: 46%;
+}
+
+.actions {
+  width: 100%;
+  text-align: center;
+}
+
+.actionBtn{
+margin: 10px;
+}
