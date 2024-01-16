@@ -43,6 +43,6 @@ export const Counter = () => {
                 </>
                 }
             </div>
-        </div>
+        </div >
     )
 }
