@@ -5,6 +5,8 @@ import styles from './page.module.css'
 import { Modal } from './components/modal/modal'
 import { WindowConfirm } from './components/window_confirm/view'
 import { Counter } from './components/counter/counter'
+import { Carousel } from './components/carousal/carousal'
+import people from './components/carousal/data'
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -16,10 +18,9 @@ export default function Home() {
           !isModalOpen &&
           <>
             <button className={styles.modalBtn} onClick={() => setIsModalOpen(true)}>Shared Modal</button>
-            <br />
             <WindowConfirm />
-            <br />
             <Counter />
+            <Carousel people={people} />
           </>
         }
         {

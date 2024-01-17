@@ -3,11 +3,10 @@
   width: 300px;
   height: 100px;
   color: black;
-  position: fixed;
+  position: absolute;
   border-radius: 16px;
-  margin-top: 20%;
-  margin-left: -7%;
-}
+  margin-top: 200px;
+  margin-left: -90%;}
 
 .count {
   margin: 10px;
